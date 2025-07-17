@@ -86,3 +86,4 @@ def index():
     wordoftheday = get_secret()
     todaystime = query_time()
     return render_template('index.html', wordoftheday=wordoftheday, time=todaystime, ip=ipinfo)
+
